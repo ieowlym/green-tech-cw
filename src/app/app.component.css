@@ -1,0 +1,62 @@
+.frame {
+    border: 6em solid #132c33;
+    padding: 23.8em;
+    width: 100%;
+    position: fixed;
+    z-index: 20;
+}
+.header {
+    width: 100%;
+    padding-top: 1.8em;
+    z-index: 30;
+    position: fixed;
+}
+.header li {
+    padding: 0 3em;
+    border-bottom: none;
+}
+.header li:hover {
+    border-bottom: 0.4em solid #51c4d3;
+}
+.footer li {
+    padding: 0 1em;
+}
+.header a, .footer li {
+    color: white;
+    padding-bottom: 1.8em;
+}
+.content {
+    padding: 6em;
+    z-index: -3;
+}
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 6em;
+    z-index: 20;
+}
+.wave4 {
+    z-index: -5;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.wave3 {
+    z-index: -4;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.wave2 {
+    z-index: -3;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.wave1 {
+    z-index: 5;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}

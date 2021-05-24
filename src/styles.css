@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    overflow-x: hidden;
+    background-color: #d8e3e7;
+    font-family: 'Montserrat', sans-serif;
+    color: #132c33
+}
+::-webkit-scrollbar {
+    width: 0;
+  }
